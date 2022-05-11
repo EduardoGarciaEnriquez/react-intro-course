@@ -1,0 +1,22 @@
+.create-todo-btn {
+  z-index: 1;
+  position: fixed;
+  bottom: 20px;
+  left: calc(50% - 100px);
+  width: 200px;
+  font-size: 2rem;
+  color: white;
+  background-color: #525275;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#72b8fa), to(rgba(9, 254, 254, 0.572)));
+  background-image: linear-gradient(to top, #72b8fa, rgba(9, 254, 254, 0.572));
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.create-todo-btn:hover, .create-todo-btn:active {
+  background-color: #bc8746;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#fab472), to(rgba(236, 144, 254, 0.572)));
+  background-image: linear-gradient(to top, #fab472, rgba(236, 144, 254, 0.572));
+  border: salmon 1px solid;
+}
+/*# sourceMappingURL=CreateToDoButton.css.map */

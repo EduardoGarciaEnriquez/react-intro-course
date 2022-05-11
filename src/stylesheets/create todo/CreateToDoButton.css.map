@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,gBAAgB,CAAC;EACb,OAAO,EAAE,CAAC;EACV,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,IAAI;EACZ,IAAI,EAAE,iBAAiB;EACvB,KAAK,EAAE,KAAK;EAEZ,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,OAAgB;EAClC,gBAAgB,EAAE,0DAAsE;EACxF,MAAM,EAAE,IAAI;EACZ,aAAa,ECdF,MAAM;CDepB;;AAED,AAAA,gBAAgB,AAAA,MAAM,EAAE,gBAAgB,AAAA,OAAO,CAAA;EAC3C,gBAAgB,EAAE,OAAiB;EACnC,gBAAgB,EAAE,4DAAwE;EAC1F,MAAM,EAAE,gBAAgB;CAC3B",
+    "sources": [
+        "CreateToDoButton.scss",
+        "../variables/Variables.scss"
+    ],
+    "names": [],
+    "file": "CreateToDoButton.css"
+}

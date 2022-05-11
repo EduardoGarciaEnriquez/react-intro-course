@@ -1,0 +1,14 @@
+.todo-counter-container {
+  text-align: center;
+}
+
+.todo-counter-container h2 {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  font-size: 3rem;
+  background: -webkit-linear-gradient(left, #649fb6, #e99145);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*# sourceMappingURL=ToDoCounter.css.map */

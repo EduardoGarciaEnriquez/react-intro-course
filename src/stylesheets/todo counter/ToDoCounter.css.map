@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,uBAAuB,CAAC;EACpB,UAAU,EAAE,MAAM;CAWrB;;AAZD,AAGI,uBAHmB,CAGnB,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,+CAAoE;EAChF,eAAe,EAAE,IAAI;EACrB,uBAAuB,EAAE,WAAW;CACvC",
+    "sources": [
+        "ToDoCounter.scss"
+    ],
+    "names": [],
+    "file": "ToDoCounter.css"
+}

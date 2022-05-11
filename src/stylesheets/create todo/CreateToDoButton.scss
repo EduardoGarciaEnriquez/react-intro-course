@@ -1,0 +1,22 @@
+@import '../variables/Variables.scss';
+
+.create-todo-btn {
+    z-index: 1;
+    position: fixed;
+    bottom: 20px;
+    left: calc(50% - 100px);
+    width: 200px;
+
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(82, 82, 117);
+    background-image: linear-gradient(to top , rgb(114, 184, 250), rgba(9, 254, 254, 0.572));
+    border: none;
+    border-radius: $borderRadius;
+}
+
+.create-todo-btn:hover, .create-todo-btn:active{
+    background-color: rgb(188, 135, 70);
+    background-image: linear-gradient(to top , rgb(250, 180, 114), rgba(236, 144, 254, 0.572));
+    border: salmon 1px solid;
+}

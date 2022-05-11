@@ -1,0 +1,57 @@
+.todo-item-container {
+  width: 90%;
+  min-width: 300px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.todo-item-container .todo-item {
+  list-style: none;
+  position: relative;
+  margin: 30px 0px;
+  margin-left: -40px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.todo-item-container .todo-item .text {
+  text-decoration: none;
+}
+
+.todo-item-container .todo-item .text-active {
+  text-decoration: line-through;
+}
+
+.todo-item-container .todo-item .check {
+  position: absolute;
+  left: 20px;
+  top: calc(50% - 25px);
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.todo-item-container .todo-item .check:hover, .todo-item-container .todo-item .check:active {
+  color: yellowgreen;
+}
+
+.todo-item-container .todo-item .check-active {
+  color: green;
+}
+
+.todo-item-container .todo-item .delete {
+  position: absolute;
+  top: -25px;
+  right: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.todo-item-container .todo-item .delete:hover, .todo-item-container .todo-item .delete:active {
+  color: red;
+}
+/*# sourceMappingURL=ToDoItem.css.map */

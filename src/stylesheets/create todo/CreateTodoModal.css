@@ -1,0 +1,38 @@
+.modal-container {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.modal-container .modal-content {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.modal-container .modal-content textarea {
+  border-radius: 2em;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.modal-container .modal-content button {
+  margin: 10px;
+  padding: 7px;
+  font-size: 1rem;
+  color: white;
+  background-color: #525275;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#72b8fa), to(rgba(9, 254, 254, 0.572)));
+  background-image: linear-gradient(to top, #72b8fa, rgba(9, 254, 254, 0.572));
+  border: none;
+  border-radius: 0.5rem;
+}
+/*# sourceMappingURL=CreateTodoModal.css.map */

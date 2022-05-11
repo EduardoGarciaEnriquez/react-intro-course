@@ -1,0 +1,13 @@
+.todo-counter-container {
+    text-align: center;
+
+    h2 {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        font-size: 3rem;
+        background: -webkit-linear-gradient(left, rgb(100, 159, 182), rgb(233, 145, 69));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
